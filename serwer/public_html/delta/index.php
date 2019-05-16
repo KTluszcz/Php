@@ -26,20 +26,19 @@ if(isset($_GET['a']) AND isset($_GET['b']) AND isset($_GET['c']))
       {
          $x1 = (-$b - sqrt($delta))/2 * $a;
          $x2 = (-$b + sqrt($delta))/2 * $a;
-         include('views/delta-1.php');
       }
 
       elseif($delta==0)
       {
          $x = -$b / (2 * $a);
-         include('views/delta-2.php');
       }
 
       else
       {
          $komunikat = 'Równanie nie posiada miejsc zerowych.';
-         include('views/delta-3.php');
       }
+
+      include('views/delta.php');
    }
 
    else
