@@ -8,5 +8,14 @@
 </head>
 <body>
    <h1>Formularz</h1>
+   <form action="index.php" method="get">
+   <p>Podaj a</p>
+   <input type="text" name="a">
+   <p>Podaj b</p>
+   <input type="text" name="b">
+   <p>Podaj c</p>
+   <input type="text" name="c">
+   <input type="submit" name="wyślij">
+   </form>
 </body>
 </html>
