@@ -15,7 +15,7 @@
    <input type="text" name="b">
    <p>Podaj c</p>
    <input type="text" name="c">
-   <input type="submit" name="Oblicz deltę">
+   <input type="submit" value="Oblicz deltę">
    </form>
 </body>
 </html>
