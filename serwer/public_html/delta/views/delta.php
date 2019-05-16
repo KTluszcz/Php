@@ -7,14 +7,14 @@
    <title>Document</title>
 </head>
 <body>
-<h1>Delta</h1>
-<p>Parametry</p>
-<ul>
-<li>x1 = <?php echo $a ?></li>
-<li>x2 = <?php echo $b ?></li>
-<li>x3 = <?php echo $c ?></li>
-<li>delta = <?php echo $delta ?></li>
-</ul>
+   <h1>Delta</h1>
+   <p>Parametry</p>
+   <ul>
+      <li>x1 = <?php echo $a ?></li>
+      <li>x2 = <?php echo $b ?></li>
+      <li>x3 = <?php echo $c ?></li>
+      <li>delta = <?php echo $delta ?></li>
+   </ul>
    
    <?php
       if($delta>0)
