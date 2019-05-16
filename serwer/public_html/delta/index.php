@@ -1,4 +1,11 @@
 <?php
+
+// FUNKCJA DELTA
+function delta($a,$b,$c){
+   $delta = $b * $b - 4 * $a * $c;
+   return $delta;
+}
+
 //Włączamy pełne reportowanie błędow.
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
@@ -12,7 +19,8 @@ if(isset($_GET['a']) AND isset($_GET['b']) AND isset($_GET['c']))
       $a = $_GET['a'];
       $b = $_GET['b'];
       $c = $_GET['c'];
-      $delta = $b * $b - 4 * $a * $c;
+
+      $delta = delta($a,$b,$c);
 
       if($delta>0)
       {
